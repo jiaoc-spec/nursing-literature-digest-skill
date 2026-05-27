@@ -1,6 +1,6 @@
 ---
 name: paper-vault
-description: Create, update, or troubleshoot a local visual Paper Vault for saved research papers. Use when the user wants to import High or Medium papers from a daily literature digest, connect the vault with the nursing-literature-digest skill, classify papers into broad research categories with drill-down subtopics, build a searchable card-style paper dashboard, add bilingual notes, attach local PDF paths, run a multi-digest vault with digest-tab navigation, or share a reusable Paper Vault workflow across different research fields.
+description: Create, update, or troubleshoot a local visual Paper Vault for saved research papers. Use when the user wants to import High or Medium papers from a daily literature digest, connect the vault with the nursing-literature-digest skill, classify papers into broad research categories with drill-down subtopics using vault_category, build a searchable card-style paper dashboard, add bilingual notes, attach local PDF paths, run a multi-digest vault with digest-tab navigation (Digest → Area → Paper), or share a reusable Paper Vault workflow across different research fields.
 ---
 
 # Paper Vault
