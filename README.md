@@ -1,5 +1,7 @@
 # Nursing Literature Digest Skill
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A [Claude Code](https://claude.ai/code) skill for automated daily nursing and psychiatric nursing literature digests — with an integrated **Paper Vault** for building a searchable local research library.
 
 Monitors **PubMed/MEDLINE**, **Crossref**, **OpenAlex**, and **arXiv** for new papers, writes AI-powered summaries in your chosen language, saves local Markdown archives, sends daily email digests via Gmail, and automatically imports high-priority papers into a browsable local web vault.
