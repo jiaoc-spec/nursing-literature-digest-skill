@@ -41,7 +41,7 @@ Nurses, nursing students, and researchers specialising in **psychiatric and ment
 
 - [Claude Code](https://claude.ai/code) (CLI or desktop app)
 - Python 3.9 or later
-- Internet access (PubMed, Crossref, OpenAlex, arXiv APIs — all free, no API key required)
+- Internet access to PubMed/NCBI, Crossref, OpenAlex, and arXiv APIs. Some services may require contact information, API keys, or rate-limit compliance; for example, OpenAlex requires an API key for regular API use as of February 13, 2026.
 - Gmail SMTP credentials or Claude Code Gmail connector (optional, for email delivery)
 
 ---
@@ -141,5 +141,14 @@ nursing-literature-digest/
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-This project includes components adapted from MIT-licensed open-source projects.
-See [NOTICE](NOTICE) for third-party copyright notices.
+Portions of this project are adapted from MIT-licensed open-source projects. See [NOTICE](NOTICE) for third-party copyright notices and attribution.
+
+## Disclaimer
+
+This project is a research and literature-awareness tool. It is not medical, nursing, diagnostic, therapeutic, legal, or professional advice. AI-generated summaries may be incomplete or inaccurate and must be checked against the original sources before being used for clinical, academic, or publication purposes.
+
+The tool is designed to work with openly available metadata, abstracts, and user-provided or lawfully accessible full texts. It is not intended to bypass paywalls, publisher access controls, institutional login systems, or database terms of use.
+
+Users are responsible for complying with the terms, rate limits, attribution requirements, and acceptable-use policies of all external services they configure or access, including PubMed/NCBI, Crossref, OpenAlex, arXiv, Gmail, and any publisher or institution.
+
+This project is not affiliated with, endorsed by, or sponsored by Anthropic, Claude, PubMed/NCBI, Crossref, OpenAlex, arXiv, Google, Gmail, or any publisher mentioned in the documentation.
