@@ -23,7 +23,7 @@ Monitors **PubMed/MEDLINE**, **Crossref**, **OpenAlex**, and **arXiv** for new p
 **Paper Vault** *(integrated from [research-radar-paper-vault](https://github.com/xuezheng627/research-radar-paper-vault) by xuezheng627)*
 - Imports High and Medium priority papers into a local static web dashboard
 - Groups papers by Digest → Vault Category → Paper with tab navigation
-- Supports multiple digests in one vault (nursing + psychiatry-medicine + AI nursing)
+- Supports multiple digests in one vault
 - Searchable card view with title, summary, method, result, and next-action fields
 - Deduplicates by DOI/PMID across daily runs
 - Auto-updates daily after each digest fetch (Step 5 in run scripts)
@@ -134,21 +134,13 @@ nursing-literature-digest/
 │       ├── app.js
 │       └── data/
 ├── config/
-│   ├── nursing-literature-digest.config.json   # Psychiatric nursing digest config
-│   ├── psychiatry-medicine-digest.config.json  # Psychiatry medicine digest config
-│   └── ki-pflege-digest.config.json            # AI nursing digest config
+│   └── nursing-literature-digest.config.json   # Psychiatric nursing digest config
 ├── run-scripts/
-│   ├── nursing-literature-digest-run.sh        # launchd run script — nursing digest
-│   ├── psychiatry-medicine-digest-run.sh       # launchd run script — psychiatry digest
-│   └── ki-pflege-digest-run.sh                 # launchd run script — AI nursing digest
+│   └── nursing-literature-digest-run.sh        # launchd run script — nursing digest
 ├── email-scripts/
-│   ├── nursing-literature-digest-email.py      # Gmail sender — nursing digest
-│   ├── psychiatry-medicine-digest-email.py     # Gmail sender — psychiatry digest
-│   └── ki-pflege-digest-email.py               # Gmail sender — AI nursing digest
+│   └── nursing-literature-digest-email.py      # Gmail sender — nursing digest
 ├── launchd/
 │   ├── com.nursing.literature.digest.plist     # launchd agent — nursing digest (09:00)
-│   ├── com.psychiatry.medicine.digest.plist    # launchd agent — psychiatry digest (09:00)
-│   ├── com.ki.pflege.digest.plist              # launchd agent — AI nursing digest (09:00)
 │   ├── com.nursing.paper-vault.server.plist    # launchd agent — vault HTTP server
 │   └── com.obsidian.digest.sync.plist          # launchd agent — Obsidian sync
 ├── agents/
